@@ -11,20 +11,47 @@
     font-style: normal;
     background-color: black;
 } */
-body {
+*{
+    margin: 0px;
+    box-sizing: border-box;
     font-family: "Stick No Bills", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     background-color: black;
     color: white;
-    text-align: center;
     font-size: 50px;
 
 }
+a
+{
+    border-style: solid;
+    padding: 15px 5px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 1s;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua, 0 0 40px aqua, 0 0 60px aqua;
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+    transition: 1s;
+    text-decoration: none;
+}
+.lastname {
+    color: aqua;
+}
 
-.header {
+.container{
     display: flex;
+    height: 10vh;
+    flex-direction: row;
     justify-content: space-between;
+    background: black;
+    padding: 5px 15px;
+    align-items: center;
     
 }
