@@ -11,7 +11,7 @@
     font-style: normal;
     background-color: black;
 } */
-*{
+* {
     margin: 0px;
     padding: 5px;
     box-sizing: border-box;
@@ -24,23 +24,24 @@
     font-size: 50px;
     background-image: url("Untitled design.png");
     background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:fixed; 
-    cursor: url('image\ \(1\).png'), auto; 
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url('image\ \(1\).png'), auto;
 }
-h1:hover
-{
+
+h1:hover {
     font-size: 50px;
     font-weight: 400;
-    color: aqua;
-    text-shadow: 0 0 20px aqua, 0 0 40px aqua, 0 0 60px aqua;
+    color: #eb5e28;
+    text-shadow: 0 0 20px #eb5e28, 0 0 40px #eb5e28, 0 0 60px #eb5e28;
     transition: 1s;
 }
-h1{
+
+h1 {
     transition: 1s;
 }
-a
-{
+
+a {
     border-style: solid;
     padding: 15px 5px;
     border-style: none;
@@ -48,21 +49,32 @@ a
     transition: 1s;
     text-decoration: none;
 }
-a:hover
-{
-    background-color: aqua;
-    color: aqua;
-    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+
+a:hover {
+    background-color: #eb5e28;
+    color: #eb5e28;
+    text-shadow: 0 0 10px #eb5e28, 0 0 20px #eb5e28, 0 0 30px #eb5e28;
     transition: 1s;
     text-decoration: none;
 }
-.container{
+
+.container {
     display: flex;
     height: 10vh;
     flex-direction: row;
     justify-content: space-between;
-    background:transparent;
+    background: transparent;
     padding: 5px 15px;
     align-items: center;
-    cursor: url('image.png') 0 0, auto; 
+    padding-left: 6vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 70vh;
+    height: 10vh;
+    align-items:start;
+    padding-left: 5vh;
 }
