@@ -13,6 +13,7 @@
 } */
 *{
     margin: 0px;
+    padding: 5px;
     box-sizing: border-box;
     font-family: "Stick No Bills", sans-serif;
     font-optical-sizing: auto;
@@ -21,18 +22,22 @@
     background-color: rgb(15, 15, 15);
     color: white;
     font-size: 50px;
-    /* background-image: url("try.jpg");
+    background-image: url("Untitled design.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed */
+    background-size:cover;
+    background-attachment:fixed; 
+    cursor: url('image\ \(1\).png'), auto; 
 }
-.container>nav{ gap: 10;}
-h1
+h1:hover
 {
     font-size: 50px;
     font-weight: 400;
     color: aqua;
     text-shadow: 0 0 20px aqua, 0 0 40px aqua, 0 0 60px aqua;
+    transition: 1s;
+}
+h1{
+    transition: 1s;
 }
 a
 {
@@ -46,8 +51,7 @@ a
 a:hover
 {
     background-color: aqua;
-    color: black;
-    box-shadow: 0 0 20px aqua, 0 0 40px aqua, 0 0 60px aqua;
+    color: aqua;
     text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
     transition: 1s;
     text-decoration: none;
@@ -60,5 +64,5 @@ a:hover
     background:transparent;
     padding: 5px 15px;
     align-items: center;
-    
+    cursor: url('image.png') 0 0, auto; 
 }
