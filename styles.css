@@ -22,11 +22,11 @@
     background-color: rgb(15, 15, 15);
     color: white;
     font-size: 50px;
-    background-image: url("Untitled design.png");
+    background-image: url("/images/Untitled\ design.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    cursor: url('image\ \(1\).png'), auto;
+    cursor: url('/images/image\ \(1\).png'), auto;
 }
 
 h1:hover {
