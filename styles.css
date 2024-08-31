@@ -72,7 +72,7 @@ a:hover {
     display: flex;
     height: 10vh;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-grow: 1;
     background: transparent;
     padding: 5px 5px;
