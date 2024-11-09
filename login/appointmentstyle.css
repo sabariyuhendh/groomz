@@ -1,11 +1,14 @@
 body{
     margin-left: 30%;
     margin-right: 30%;
+    background-image: url("/images/bac3.jpg");
+    color: black;
 }
 .nav{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    color: aliceblue;
 }
 .form {
     max-width: 600px;
