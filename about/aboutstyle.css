@@ -15,7 +15,9 @@
     background-attachment: fixed;
     cursor: url('/images/image\ \(1\).png'), auto;
 }
-
+#gr{
+    font-size: 60px;
+}
 a {
     border-style: solid;
     font-size: 40px;
@@ -92,4 +94,21 @@ button:hover{
     background-color: aliceblue;
     margin-left: 12vh;
     margin-right: 12vh;
+}
+#abt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7px;
+}
+.parasize{
+    font-size: 30px;
+}
+@media screen and (max-width: 678px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size: 30px;
+    }
 }

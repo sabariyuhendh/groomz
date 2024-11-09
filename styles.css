@@ -95,13 +95,11 @@ a:hover {
     border-radius: 0px 15px;
     padding-left: 2vh;
 }
-.ad>div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.ad
-{
-    background: burlywood;
+@media screen and (max-width: 678px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size: 30px;
+    }
 }
