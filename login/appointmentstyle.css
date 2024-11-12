@@ -5,22 +5,29 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
+    font-family:"Stick No Bills", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 .nav{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    align-items: center;
     justify-self:unset;
     flex-wrap: unwrap;
     color: aliceblue;
 }
 .form {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     background: white;
-    padding: 20px;
+    padding:  20px 40px 20px 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(190, 185, 185, 0.277);
+    box-shadow: 0 0 10px rgba(255, 253, 253, 0.1);
 }
 label {
     display: block;
