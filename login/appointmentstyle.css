@@ -1,15 +1,17 @@
 body{
     margin-left: 30%;
     margin-right: 30%;
-    background-image: url("/images/bac3.jpg");
+    /* background-image: url("/images/bac3.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     color: black;
     font-family:"Stick No Bills", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     color: white;
+    --angle: 135deg;
+    background: linear-gradient(var(--angle), #000000 49%, #191919 49%, #333333 37%)
 }
 .nav{
     display: flex;

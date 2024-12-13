@@ -19,21 +19,41 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: whitesmoke;
     font-size: 60px;
     cursor: url('/images/image\ \(1\).png'), auto;
+
 }
+/** Text Gradient Example */ 
 body{
-    background-image: url("/images/Untitled\ design.png");
+    /* background-image: url("/images/Untitled\ design.png"); */
+    /* background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+     */
+     background-image: linear-gradient(45deg, #000000 37%, #191919 49%, #333333 48%); 
+      /* background-clip: text; 
+      */
+      /*
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent; */
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+/* .container{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-color: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830); 
+    background: linear-gradient(to right, #F37335, #FDC830); 
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); 
+}*/
 h1:hover {
-    font-size: 50px;
-    font-weight: 400;
-    color: #eb5e28;
-    text-shadow: 0 0 20px #eb5e28, 0 0 40px #eb5e28, 0 0 60px #eb5e28;
+    /* font-size: 50px;
+    font-weight: 400; */
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px whitesmoke, 0 0 40px whitesmoke, 0 0 60px whitesmoke;
     transition: 1s;
 }
 
@@ -61,8 +81,8 @@ a {
 
 a:hover {
 
-    color: #eb5e28;
-    text-shadow: 0 0 10px #eb5e28, 0 0 20px #eb5e28, 0 0 30px #eb5e28;
+    color: whitesmoke;
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke;
     transition: 1s;
     text-decoration: none;
 }

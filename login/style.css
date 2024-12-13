@@ -12,9 +12,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(cb04b03b38b01def99febb2585a48d1a.gif);
-  background-position: center;
-  background-size: cover;
+  --angle: 135deg;
+  background: linear-gradient(var(--angle), #000000 49%, #191919 49%, #333333 37%)
 }
 
 section {
