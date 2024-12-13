@@ -1,49 +1,29 @@
-* {
+*{
     margin: 0px;
     padding: 5px;
     box-sizing: border-box;
-    font-family:"Stick No Bills", sans-serif;
+    font-family: "Stick No Bills", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     color: white;
     font-size: 60px;
-    cursor: url('/images/image\ \(1\).png'), auto;
 }
 body{
-    /* background-image: url("/images/Untitled\ design.png"); */
-    background: #B79891;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
+    background-image: url("/images/Untitled\ design.png");
+    background-image: linear-gradient(45deg, #000000 37%, #191919 49%, #333333 48%); 
+      /* background-clip: text; 
+      */
+      /*
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent; */
+     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.container{
-    background-color: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+#gr{
+    font-size: 60px;
 }
-h1:hover {
-    font-size: 50px;
-    font-weight: 400;
-    color: black;
-    /* text-shadow: 0 0 20px black, 0 0 40px black, 0 0 60px black; */
-    transition: 1s;
-}
-
-h1 {
-    transition: 1s;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 7px;
-  }
-
 a {
     border-style: solid;
     font-size: 40px;
@@ -54,17 +34,27 @@ a {
     transition: 1s;
     text-decoration: none;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7px;
+  }
 
 a:hover {
 
-    color: black;
-    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    color: whitesmoke;
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke;
     transition: 1s;
     text-decoration: none;
 }
+#on{
 
+    color: whitesmoke;
+    text-shadow: 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke;
+    text-decoration: none;
+}
 .container {
-    
     display: flex;
     height: 10vh;
     flex-direction: row;
@@ -75,20 +65,51 @@ a:hover {
     align-items: center;
     padding-left: 6vh;
 }
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    min-height: 70vh;
-    height: 10vh;
-    align-items:start;
-    padding-left: 5vh;
+.body{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right:20%;
+    margin-bottom: 20vh;
 }
-.appointement
-{
-    border-style:inset;
-    border-radius: 0px 15px;
-    padding-left: 2vh;
+
+.body>h6{
+    font-size:x-large;
+    color:rgb(175, 175, 175);
+}
+button {
+    color: black;
+    width: 10%;
+    height: auto;
+    box-sizing:inherit;
+    padding-bottom: 3%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size:.5em;
+    background: whitesmoke;
+    font-weight: 600;
+    transition: 1s;
+  }
+button:hover{
+    background-color: black;
+    color:whitesmoke;
+    transition: 1s;
+}
+#about{
+  
+    margin-left: 12vh;
+    margin-right: 12vh;
+}
+#abt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7px;
+}
+.parasize{
+    font-size: 30px;
 }
 @media screen and (max-width: 678px) {
     .carousel .list .item .content{
